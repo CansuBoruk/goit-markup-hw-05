@@ -375,8 +375,8 @@ margin-top: -120px;
   border: 1px solid;
   width: 408px;
   height: 584px;
-  margin-left:400px;
-  margin-top:-300px;
+  margin-left:500px;
+ 
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
   opacity: 0px;
@@ -390,7 +390,16 @@ background: #FCFCFC;
 
   
 }
+.form-div{
+  background-color: rgba(46, 47, 66, 0.4);
+ position: fixed;
+width: 1548px;
+margin-left: -110px;
+margin-top: -350px;
 
+
+
+}
 .form-button {
   align-self: flex-start;
 }
@@ -400,11 +409,14 @@ background: #FCFCFC;
     color:#212121;
     border: 1px solid #212121;
     border-radius:4px;
+    justify-content: center;
+
     
 }
 
 
-.content-form{  margin-top: 100px;}
+.content-form{  margin-top: 100px;
+}
 
 
 .close-svg{
@@ -417,12 +429,12 @@ background: #FCFCFC;
   --color2:var(--navyblue)
 
 }
-.close-svg:hover{
+.close-svg:hover {
   --color1: #404bbf;
   --color2: #ffff;
   
 }
-.close-svg:focus{
+.close-svg:focus {
   --color1: #404bbf;
   --color2: #ffff;
 }
@@ -620,5 +632,78 @@ margin-top:20px;
 .input-svg:focus{
   border-color: #4D5AE5;
 
+
+}
+
+.sub{
+  width: 75px;
+height: 24px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #FFFFFF;
+margin-left: 800px;
+margin-top:-80px;
+}
+
+.footer-input{
+
+width: 264px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding-left: 12px;
+  position: relative;
+  margin-left:800px;
+
+}
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  width: 36px;
+  height: 24px;
+  color: white;
+}
+
+.sub-but{
+  margin-left: 1100px;
+  width: 165px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+ 
+  letter-spacing: 4%;
+  cursor: pointer;
+  color: white;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  position: relative;
+
+}
+
+.footer-svg{
+  position: relative;
+margin-bottom:-8px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.sub-button{
+margin-top:-40px;
 
 }
