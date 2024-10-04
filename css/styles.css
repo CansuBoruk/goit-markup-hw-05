@@ -468,6 +468,8 @@ border-radius: 4px ;
 border: 1px ;
 opacity: 0px;
 margin-left: 15px;
+padding-left:40px;
+
 }
 .form-name{
   line-height: 2em;
@@ -476,6 +478,7 @@ margin-left: 15px;
 
 .svg-input{cursor: pointer;
   position: absolute;
+
 }
 .name-svg{
   position: absolute;
@@ -502,13 +505,22 @@ margin-left: 15px;
 
 .input{
   width: 360px;
-height: 40px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  outline: none;
+  padding-left: 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
 
-border-radius: 4px;
-border: 1px;
-opacity: 0px;
-border: 1px solid #2E2F4266;
-
+.input:focus {
+  border-color: #4d5ae5;
 }
 
 
@@ -571,7 +583,7 @@ color: #4D5AE5;
 height: 56px;
 padding: 16px 32px 16px 32px;
 gap: 10px;
-border-radius: 4px 0px 0px 0px;
+border-radius: 4px;
 opacity: 0px;
 background: #4D5AE5;
 justify-content: center;
@@ -584,6 +596,7 @@ text-align: center;
 color: #FFFFFF;
 margin-left: 110px;
 margin-top:20px;
+
 }
 
 .checked:checked{
@@ -594,16 +607,18 @@ margin-top:20px;
 .input-svg{
   position: absolute;
   cursor: pointer;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
+  fill: #2e2f42;
+  position: absolute;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
-.input-svg:hover{
- fill: #404bbf;
 
-  
+.input:focus + .input-svg {
+  fill: #4d5ae5;
 }
 .input-svg:focus{
-  fill: #404bbf;
+  border-color: #4D5AE5;
+
 
 }
