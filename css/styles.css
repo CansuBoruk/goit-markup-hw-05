@@ -419,25 +419,6 @@ margin-top: -350px;
 }
 
 
-.close-svg{
- margin-top:10px;
-  margin-left:350px;
-  position: absolute;
-  cursor: pointer;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --color1:#e7e9fc;
-  --color2:var(--navyblue)
-
-}
-.close-svg:hover {
-  --color1: #404bbf;
-  --color2: #ffff;
-  
-}
-.close-svg:focus {
-  --color1: #404bbf;
-  --color2: #ffff;
-}
 
 
 
@@ -534,7 +515,28 @@ padding-left:40px;
 .input:focus {
   border-color: #4d5ae5;
 }
+.close-svg{
+  fill: #e7e9fc;
+  margin-top:10px;
+   margin-left:350px;
+   position: absolute;
+   cursor: pointer;
 
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+--color3: #e7e9fc;
+--color5: none;
+---color4: none;
+ 
+ }
+
+ 
+ .close-svg:hover {
+  --color3: #fff;
+  --color5:#404bbf;
+  --color4: #fff;
+ }
+ 
 
 
 .form-comment{
