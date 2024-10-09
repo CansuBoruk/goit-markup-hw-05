@@ -524,15 +524,15 @@ padding-left:40px;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 --color3: #e7e9fc;
---color5: none;
+--color5: #000;
 ---color4: none;
  
  }
 
  
  .close-svg:hover {
-  --color3: #fff;
-  --color5:#404bbf;
+  --color3: #404bbf;
+  --color5:#fff;
   --color4: #fff;
  }
  
